@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  jupyter:
+    image: jupyter/datascience-notebook:latest
+    container_name: jupyter
+    volumes:
+      - ./data:/home/azat/
+      - ./configurations:/home/azat/.jupyter
+    ports:
+      - "8888:8888"
+    restart: always
+    user: root
+    command: "start-notebook.sh"
+    environment:
+      PUID: 1000
+      PGID: 1000
+      NB_USER: azat
+      NB_UID: 1001
+      NG_GID: 1001
+      CHOWN_HOME: 'yes'
+      CHOWN_HOME_OPTS: -R
+      GRANT_SUDO: 'yes'
+      RESTARTABLE: 'yes'

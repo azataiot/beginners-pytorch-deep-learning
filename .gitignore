@@ -633,7 +633,7 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
-# Code Injection
+# data Injection
 # After new code Injection tools there's a generated folder /iOSInjectionProject
 # https://github.com/johnno1962/injectionforxcode
 
@@ -653,10 +653,10 @@ xcuserdata
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
-# Local History for Visual Studio Code
+# Local History for Visual Studio data
 .history/
 
-# Built Visual Studio Code Extensions
+# Built Visual Studio data Extensions
 *.vsix
 
 ### VisualStudioCode Patch ###
@@ -880,14 +880,14 @@ _ReSharper*/
 # TeamCity is a build add-in
 _TeamCity*
 
-# DotCover is a Code Coverage Tool
+# DotCover is a data Coverage Tool
 *.dotCover
 
-# AxoCover is a Code Coverage Tool
+# AxoCover is a data Coverage Tool
 .axoCover/*
 !.axoCover/settings.json
 
-# Coverlet is a free, cross platform Code Coverage Tool
+# Coverlet is a free, cross platform data Coverage Tool
 coverage*.json
 coverage*.xml
 coverage*.info
@@ -1110,16 +1110,16 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-# Ionide (cross platform F# VS Code tools) working folder
+# Ionide (cross platform F# VS data tools) working folder
 .ionide/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-# VS Code files for those working on multiple tools
+# VS data files for those working on multiple tools
 *.code-workspace
 
-# Local History for Visual Studio Code
+# Local History for Visual Studio data
 
 # Windows Installer files from build outputs
 

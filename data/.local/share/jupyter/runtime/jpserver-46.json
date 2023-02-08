@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 46,
+  "port": 8888,
+  "root_dir": "/home/azat",
+  "secure": false,
+  "sock": "",
+  "token": "58aa0d7cc8b64b30bec8120dd08807fe54e960af5d59466a",
+  "url": "http://5f0ec8f0faac:8888/",
+  "version": "2.2.1"
+}
